@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EPICARE | Emergency AI Platform</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: #fff;
+    }
+
+    header {
+      padding: 2rem;
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      color: #00d9ff;
+    }
+
+    header p {
+      max-width: 900px;
+      margin: 0 auto;
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #d0e7ff;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin: 3rem auto;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background-color: rgba(255, 255, 255, 0.05);
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+      text-align: center;
+      transition: transform 0.3s ease;
+      width: 250px;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+    }
+
+    .card a {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.8rem 1.5rem;
+      background-color: #00d9ff;
+      color: #000;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .card a:hover {
+      background-color: #00bcd4;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: rgba(0, 0, 0, 0.3);
+      font-size: 0.9rem;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>EPICARE</h1>
+    <p>
+      EPICARE is an advanced AI-driven platform designed to revolutionize emergency healthcare by enabling rapid patient identification and delivering personalized treatment recommendations. Leveraging cutting-edge machine learning and biometric analysis, EPICARE processes diverse data inputs, such as facial recognition, medical records, and vital signs, to accurately identify patients in critical situations. Its Natural Language Processing (NLP) capabilities generate concise, accessible summaries of complex medical histories, while deep learning models analyze real-time diagnostic data, including ECGs and lab results, to support precise disease detection and risk stratification. With an interactive interface, EPICARE empowers healthcare providers with actionable insights, enhances patient outcomes through tailored care plans, and streamlines decision-making in high-pressure emergency settings.
+    </p>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <h2>QR Module</h2>
+      <a href="http://localhost:5500" target="_blank">Open QR</a>
+    </div>
+    <div class="card">
+      <h2>Face Recognition</h2>
+      <a href="http://localhost:8501" target="_blank">Open Face</a>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 EPICARE. All rights reserved.
+  </footer>
+</body>
+</html>
